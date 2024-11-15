@@ -1,4 +1,4 @@
-%% cec2019
+%% CEC2019
 
 function [lb,ub,dim,fobj] = Get_Functions_cec2019(F)
 
