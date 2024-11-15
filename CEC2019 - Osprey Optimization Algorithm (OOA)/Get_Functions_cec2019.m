@@ -20,8 +20,7 @@ switch F
         lb=-4*ones(1,dim);
         ub=4*ones(1,dim);
         fobj = @(x) cec19_func(x',3);
-        
-        
+                
     case 4
         dim=10;
         lb=-100*ones(1,dim);
@@ -33,8 +32,7 @@ switch F
         lb=-100*ones(1,dim);
         ub=100*ones(1,dim);
         fobj = @(x) cec19_func(x',5);
-        
-        
+                
     case 6
         dim=10;
         lb=-100*ones(1,dim);
@@ -47,12 +45,14 @@ switch F
         ub=100*ones(1,dim);
         fobj = @(x) cec19_func(x',7);
         dim=10;
+        
     case 8
         dim=10;
         lb=-100*ones(1,dim);
         ub=100*ones(1,dim);
         fobj = @(x) cec19_func(x',8);
         dim=10;
+        
     case 9
         dim=10;
         lb=-100*ones(1,dim);
@@ -66,5 +66,4 @@ switch F
         fobj = @(x) cec19_func(x',10);
         
 end
-
 end
